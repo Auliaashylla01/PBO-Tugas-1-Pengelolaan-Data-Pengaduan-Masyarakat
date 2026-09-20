@@ -2,7 +2,7 @@
 
 **Oleh:** Aulia Ashylla Ananda Putri Hariawan  
 **NIM:** 2509116076  
-**Mata Kuliah:** Pemrograman Berbasis Objek (PBO)
+**Mata Kuliah:** Pemrograman Berorientasi Objek (PBO)
 
 ---
 
