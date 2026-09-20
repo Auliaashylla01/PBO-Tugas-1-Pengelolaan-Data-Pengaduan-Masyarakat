@@ -58,7 +58,7 @@ src/
 ### A. Inheritance (Pewarisan)
 Penerapan *Inheritance* ditunjukkan pada kelas `Masyarakat` dan `Petugas` yang mewarisi (*extends*) atribut serta method dari superclass `Pengguna`. Pemanggilan fungsi `super()` digunakan untuk menginisialisasi nilai pada constructor parent class.                            
 
-<img width="487" height="118" alt="image" src="https://github.com/user-attachments/assets/109c768f-954a-41ad-9fc9-4c591ccc9fb5" />(assets/gambar-1.png)                            
+<img width="487" height="118" alt="image" src="https://github.com/user-attachments/assets/109c768f-954a-41ad-9fc9-4c591ccc9fb5" />                                  
 *Gambar 1: Penerapan kata kunci `extends` dan `super()` pada class `Masyarakat` yang mewarisi class `Pengguna`.*
 
 ---
@@ -67,7 +67,11 @@ Penerapan *Inheritance* ditunjukkan pada kelas `Masyarakat` dan `Petugas` yang m
 * **Access Modifier**: Seluruh atribut pada kelas model menggunakan access modifier `private` atau `protected` untuk menyembunyikan data secara langsung dari luar kelas.
 * **Encapsulation**: Pembacaan data dilakukan melalui method *getter*, dan perubahan data dilakukan melalui *setter*. Atribut `idPengaduan` sengaja tidak diberi *setter* agar nilainya tetap konsisten sebagai ID unik yang di-generate otomatis oleh sistem.
 
-![Gambar 2: Deklarasi atribut berakses private serta penerapan method getter & setter](assets/gambar-2.png)
+<img width="235" height="94" alt="image" src="https://github.com/user-attachments/assets/ab45131c-256a-4f2c-9c9e-f99831e5363e" />                                                
+
+<img width="247" height="278" alt="image" src="https://github.com/user-attachments/assets/98739dd0-696d-4e56-97e0-b88fc6011937" />                                            
+
+
 *Gambar 2: Deklarasi atribut berakses `private` serta penerapan method *getter* & *setter* pada class `Pengaduan`.*
 
 ---
