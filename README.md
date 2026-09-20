@@ -50,3 +50,69 @@ src/
     ├── Masyarakat.java
     ├── Petugas.java
     └── Pengaduan.java
+
+---                                                     
+
+## 4. Konsep OOP & Penerapan Kode
+
+### A. Inheritance (Pewarisan)
+Penerapan *Inheritance* ditunjukkan pada kelas `Masyarakat` dan `Petugas` yang mewarisi (*extends*) atribut serta method dari superclass `Pengguna`. Pemanggilan fungsi `super()` digunakan untuk menginisialisasi nilai pada constructor parent class.
+
+![Gambar 1: Penerapan kata kunci extends dan super() pada class Masyarakat](assets/gambar-1.png)
+*Gambar 1: Penerapan kata kunci `extends` dan `super()` pada class `Masyarakat` yang mewarisi class `Pengguna`.*
+
+---
+
+### B. Access Modifier & Encapsulation
+* **Access Modifier**: Seluruh atribut pada kelas model menggunakan access modifier `private` atau `protected` untuk menyembunyikan data secara langsung dari luar kelas.
+* **Encapsulation**: Pembacaan data dilakukan melalui method *getter*, dan perubahan data dilakukan melalui *setter*. Atribut `idPengaduan` sengaja tidak diberi *setter* agar nilainya tetap konsisten sebagai ID unik yang di-generate otomatis oleh sistem.
+
+![Gambar 2: Deklarasi atribut berakses private serta penerapan method getter & setter](assets/gambar-2.png)
+*Gambar 2: Deklarasi atribut berakses `private` serta penerapan method *getter* & *setter* pada class `Pengaduan`.*
+
+---
+
+## 5. Implementasi & Tampilan Program (Running Program)
+
+Berikut adalah dokumentasi hasil jalannya program (*running program*) untuk setiap fitur CRUD yang tersedia:
+
+### 1. Tampilan Utama (Header & Menu)
+Saat program pertama kali dijalankan, sistem akan menampilkan header data petugas yang sedang bertugas beserta 5 menu navigasi utama.
+
+![Gambar 3: Tampilan menu utama dan informasi petugas](assets/gambar-3.png)
+*Gambar 3: Tampilan menu utama dan informasi petugas saat aplikasi dijalankan.*
+
+---
+
+### 2. Tambah Pengaduan (Create)
+Menu 1 digunakan untuk memasukkan laporan baru. Sistem secara otomatis membuatkan **ID Pengaduan** unik (misal: `P001`), kemudian pengguna mengisikan data pelapor (Nama, NIK, Alamat), memilih kategori pengaduan (1–5), mengisikan deskripsi laporan, serta tanggal. Status awal laporan secara otomatis diset menjadi `"Pengaduan Kamu sedang Menunggu Konfirmasi..."`.
+
+![Gambar 4: Proses menginputkan data pengaduan baru](assets/gambar-4.png)
+*Gambar 4: Proses menginputkan data pengaduan baru ke dalam sistem.*
+
+---
+
+### 3. Lihat Pengaduan (Read)
+Menu 2 digunakan untuk menampilkan seluruh daftar pengaduan yang telah tersimpan di dalam memori (`ArrayList`). Setiap laporan menampilkan detail ID, data pelapor (NIK, Nama, Alamat), jenis, isi, tanggal, dan status terkini.
+
+![Gambar 5: Tampilan daftar seluruh laporan pengaduan](assets/gambar-5.png)
+*Gambar 5: Tampilan daftar seluruh laporan pengaduan yang tersimpan.*
+
+---
+
+### 4. Ubah Status Pengaduan (Update)
+Menu 3 digunakan untuk memperbarui status penanganan laporan berdasarkan ID Pengaduan. Pengguna dapat memilih status baru:
+1. Menunggu
+2. Diproses
+3. Selesai
+
+![Gambar 6: Proses pencarian ID laporan dan pembaruan status](assets/gambar-6.png)
+*Gambar 6: Proses pencarian ID laporan dan pembaruan status pengaduan.*
+
+---
+
+### 5. Hapus Pengaduan (Delete)
+Menu 4 digunakan untuk menghapus data pengaduan tertentu. Sebelum menghapus, sistem akan menampilkan data laporan yang ditemukan dan meminta konfirmasi (`y/n`) dari pengguna agar data tidak terhapus secara tidak sengaja.
+
+![Gambar 7: Proses konfirmasi dan penghapusan data](assets/gambar-7.png)
+*Gambar 7: Proses konfirmasi dan penghapusan data pengaduan dari sistem.*
