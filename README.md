@@ -50,7 +50,7 @@ src/
     ├── Masyarakat.java
     ├── Petugas.java
     └── Pengaduan.java
-
+```
 ---                                                     
 
 ## 4. Konsep OOP & Penerapan Kode
