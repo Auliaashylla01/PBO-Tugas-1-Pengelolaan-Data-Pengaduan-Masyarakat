@@ -56,9 +56,9 @@ src/
 ## 4. Konsep OOP & Penerapan Kode
 
 ### A. Inheritance (Pewarisan)
-Penerapan *Inheritance* ditunjukkan pada kelas `Masyarakat` dan `Petugas` yang mewarisi (*extends*) atribut serta method dari superclass `Pengguna`. Pemanggilan fungsi `super()` digunakan untuk menginisialisasi nilai pada constructor parent class.
+Penerapan *Inheritance* ditunjukkan pada kelas `Masyarakat` dan `Petugas` yang mewarisi (*extends*) atribut serta method dari superclass `Pengguna`. Pemanggilan fungsi `super()` digunakan untuk menginisialisasi nilai pada constructor parent class.                            
 
-![Gambar 1: Penerapan kata kunci extends dan super() pada class Masyarakat](assets/gambar-1.png)
+<img width="487" height="118" alt="image" src="https://github.com/user-attachments/assets/109c768f-954a-41ad-9fc9-4c591ccc9fb5" />(assets/gambar-1.png)                            
 *Gambar 1: Penerapan kata kunci `extends` dan `super()` pada class `Masyarakat` yang mewarisi class `Pengguna`.*
 
 ---
