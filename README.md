@@ -83,7 +83,8 @@ Berikut adalah dokumentasi hasil jalannya program (*running program*) untuk seti
 ### 1. Tampilan Utama (Header & Menu)
 Saat program pertama kali dijalankan, sistem akan menampilkan header data petugas yang sedang bertugas beserta 5 menu navigasi utama.
 
-![Gambar 3: Tampilan menu utama dan informasi petugas](assets/gambar-3.png)
+<img width="350" height="304" alt="image" src="https://github.com/user-attachments/assets/4bb52cf3-990b-4a2b-af47-184da99e3dad" />                    
+
 *Gambar 3: Tampilan menu utama dan informasi petugas saat aplikasi dijalankan.*
 
 ---
