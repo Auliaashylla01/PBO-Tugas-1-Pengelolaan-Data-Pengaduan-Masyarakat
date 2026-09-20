@@ -72,7 +72,7 @@ Penerapan *Inheritance* ditunjukkan pada kelas `Masyarakat` dan `Petugas` yang m
 
 <img width="247" height="278" alt="image" src="https://github.com/user-attachments/assets/98739dd0-696d-4e56-97e0-b88fc6011937" />                                            
 
-*Gambar 2: Deklarasi atribut berakses `private` serta penerapan method *getter* & *setter* pada class `Pengaduan`.*
+*Gambar 2 & 3: Deklarasi atribut berakses `private` serta penerapan method *getter* & *setter* pada class `Pengaduan`.*
 
 ---
 
@@ -85,23 +85,25 @@ Saat program pertama kali dijalankan, sistem akan menampilkan header data petuga
 
 <img width="350" height="304" alt="image" src="https://github.com/user-attachments/assets/4bb52cf3-990b-4a2b-af47-184da99e3dad" />                    
 
-*Gambar 3: Tampilan menu utama dan informasi petugas saat aplikasi dijalankan.*
+*Gambar 4: Tampilan menu utama dan informasi petugas saat aplikasi dijalankan.*
 
 ---
 
 ### 2. Tambah Pengaduan (Create)
 Menu 1 digunakan untuk memasukkan laporan baru. Sistem secara otomatis membuatkan **ID Pengaduan** unik (misal: `P001`), kemudian pengguna mengisikan data pelapor (Nama, NIK, Alamat), memilih kategori pengaduan (1–5), mengisikan deskripsi laporan, serta tanggal. Status awal laporan secara otomatis diset menjadi `"Pengaduan Kamu sedang Menunggu Konfirmasi..."`.
 
-![Gambar 4: Proses menginputkan data pengaduan baru](assets/gambar-4.png)
-*Gambar 4: Proses menginputkan data pengaduan baru ke dalam sistem.*
+<img width="417" height="344" alt="image" src="https://github.com/user-attachments/assets/9cc92bad-38de-4624-9a85-f8338187decc" />                
+
+*Gambar 5: Proses menginputkan data pengaduan baru ke dalam sistem.*
 
 ---
 
 ### 3. Lihat Pengaduan (Read)
 Menu 2 digunakan untuk menampilkan seluruh daftar pengaduan yang telah tersimpan di dalam memori (`ArrayList`). Setiap laporan menampilkan detail ID, data pelapor (NIK, Nama, Alamat), jenis, isi, tanggal, dan status terkini.
 
-![Gambar 5: Tampilan daftar seluruh laporan pengaduan](assets/gambar-5.png)
-*Gambar 5: Tampilan daftar seluruh laporan pengaduan yang tersimpan.*
+<img width="396" height="327" alt="image" src="https://github.com/user-attachments/assets/4078f348-3f91-417d-921a-dd5b55ea8e28" />                            
+
+*Gambar 6: Tampilan daftar seluruh laporan pengaduan yang tersimpan.*
 
 ---
 
@@ -111,13 +113,22 @@ Menu 3 digunakan untuk memperbarui status penanganan laporan berdasarkan ID Peng
 2. Diproses
 3. Selesai
 
-![Gambar 6: Proses pencarian ID laporan dan pembaruan status](assets/gambar-6.png)
-*Gambar 6: Proses pencarian ID laporan dan pembaruan status pengaduan.*
+<img width="300" height="222" alt="image" src="https://github.com/user-attachments/assets/4a186d96-4444-4524-a954-93f17dccf15b" />                        
+
+*Gambar 7: Proses pencarian ID laporan dan pembaruan status pengaduan.*
 
 ---
 
 ### 5. Hapus Pengaduan (Delete)
 Menu 4 digunakan untuk menghapus data pengaduan tertentu. Sebelum menghapus, sistem akan menampilkan data laporan yang ditemukan dan meminta konfirmasi (`y/n`) dari pengguna agar data tidak terhapus secara tidak sengaja.
 
-![Gambar 7: Proses konfirmasi dan penghapusan data](assets/gambar-7.png)
+<img width="390" height="206" alt="image" src="https://github.com/user-attachments/assets/11caf3e0-a102-4994-afc3-6b73963b1e82" />                            
+
 *Gambar 7: Proses konfirmasi dan penghapusan data pengaduan dari sistem.*
+
+### 6. Keluar Program (Exit)
+Menu 5 digunakan untuk mengakhiri perulangan (*looping*) menu dan menutup jalannya aplikasi. Saat menu ini dipilih, sistem akan menampilkan pesan penutup (*closing message*) sebagai tanda bahwa program telah selesai dieksekusi dengan aman.
+
+<img width="374" height="298" alt="image" src="https://github.com/user-attachments/assets/4dc66e10-4e9b-461a-ab02-e6e9e2b24318" />                        
+
+*Gambar 8: Tampilan pesan penutup saat pengguna memilih menu keluar.*
