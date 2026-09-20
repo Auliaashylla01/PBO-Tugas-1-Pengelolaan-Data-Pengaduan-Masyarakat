@@ -124,11 +124,11 @@ Menu 4 digunakan untuk menghapus data pengaduan tertentu. Sebelum menghapus, sis
 
 <img width="390" height="206" alt="image" src="https://github.com/user-attachments/assets/11caf3e0-a102-4994-afc3-6b73963b1e82" />                            
 
-*Gambar 7: Proses konfirmasi dan penghapusan data pengaduan dari sistem.*
+*Gambar 8: Proses konfirmasi dan penghapusan data pengaduan dari sistem.*
 
 ### 6. Keluar Program (Exit)
 Menu 5 digunakan untuk mengakhiri perulangan (*looping*) menu dan menutup jalannya aplikasi. Saat menu ini dipilih, sistem akan menampilkan pesan penutup (*closing message*) sebagai tanda bahwa program telah selesai dieksekusi dengan aman.
 
 <img width="374" height="298" alt="image" src="https://github.com/user-attachments/assets/4dc66e10-4e9b-461a-ab02-e6e9e2b24318" />                        
 
-*Gambar 8: Tampilan pesan penutup saat pengguna memilih menu keluar.*
+*Gambar 9: Tampilan pesan penutup saat pengguna memilih menu keluar.*
